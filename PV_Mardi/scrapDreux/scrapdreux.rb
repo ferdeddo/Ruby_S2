@@ -2,7 +2,7 @@ require 'google_drive'
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
-require 'watir'
+
 
 session = GoogleDrive::Session.from_config("config.json")
 
