@@ -34,11 +34,6 @@ def get_all_the_urls_of_dreux_townhalls (url)
 		town_name = town_name.split(' ').join('-')
 		url = "http://annuaire-des-mairies.com/28/#{town_name}.html"
 		list_mail[proper_town_name.to_sym] = get_the_email_of_a_townhal_from_its_webpage(url)
-	browser = Watir::Browser.new
-
-browser.goto('http://annuaire-des-mairies.com/eure-et-loir.html')
-
-browser.link(href: 'eure-et-loir-2.html').click
 	end
 
 	counter = 2
