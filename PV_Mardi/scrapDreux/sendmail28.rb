@@ -3,8 +3,8 @@ require 'google_drive'
 require 'rubygems'
 require "mail"
 
-USERMAIL = "ferdeddo"
-PASSWORD = "Adamou11"
+USERMAIL = ""
+PASSWORD = ""
 def send_email_to_line
 	mail_hash = Hash.new
 session = GoogleDrive::Session.from_config("config.json")
