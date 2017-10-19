@@ -6,7 +6,7 @@ PASSWORD = ""
 
 gmail = Gmail.connect!(USERMAIL, PASSWORD)
 gmail.deliver do
-  to "trallmighty@outlook.fr"
+  to ""
   subject "test gem gmail"
   text_part do
     body "wesh moi du future ? je t'envois ce mail à travers l'espace et le temps, afin de te prévenir ... (blablablabla)."
